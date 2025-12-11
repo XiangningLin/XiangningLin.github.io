@@ -8,51 +8,41 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I received my Master's degree in Electrical and Computer Engineering from Carnegie Mellon University. Prior to this, I received my B.S. in Mathematics from University of Chinese Academy of Sciences and was a visiting student at Columbia University.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interests lie in **AI Safety**, **Language Model Reasoning**, and **AI Agent Evaluation**. I am particularly interested in developing robust evaluation frameworks and safety mechanisms for AI agents, as well as exploring cognitive-inspired approaches to improve language model capabilities.
+
+I am fortunate to collaborate with Dr. Jiaxin Pei at Stanford HAI on system prompt auditing, Prof. Ludwig Schmidt at Stanford CS on agent benchmarking, and Prof. Manling Li at Northwestern MLL Lab on cognitive language modeling.
+
+Feel free to reach out if you have any ideas for potential collaboration, or just feel like having a casual chat!
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.08*: Joined Stanford HAI as research intern working on AI safety with Dr. Jiaxin Pei.
+- *2025.07*: Began collaboration with Prof. Ludwig Schmidt at Stanford CS on agent evaluation frameworks.
+- *2025.05*: Started research internship at Northwestern MLL Lab with Prof. Manling Li on cognitive language modeling.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div style="border: none;">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- [**Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces**](https://www.tbench.ai/), Mike A Merrill, Alexander Glenn Shaw, Nicholas Carlini, et al. (including **Xiangning Lin**), Ludwig Schmidt, **Under Review at ICLR 2026** | [Website](https://www.tbench.ai/) | [Code](https://github.com/laude-institute/terminal-bench)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- **System Prompt Auditing for User-Centric AI Agents**, **Xiangning Lin\***, Shenzhe Zhu\*, Jiaxin Pei, **In Preparation for ACL 2026**
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- **Cognitive-Inspired Concept Reasoning via Mamba in Sentence Representation Spaces**, **Xiangning Lin\***, Jianwen Lyu\*, Qineng Wang, Zihan Wang, Manling Li, **In Preparation for ICML 2026**
+
 </div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021 - 2023*, **M.S. in Electrical and Computer Engineering**, Carnegie Mellon University, Pittsburgh, PA
+- *2016 - 2020*, **B.S. in Mathematics**, University of Chinese Academy of Sciences, Beijing, China
+- *2019 (Visiting Student)*, **Mathematics**, Columbia University, New York, NY
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+<br>
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<div style="text-align: center; margin-top: 60px;">
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=169841&w=a&t=n&d=VUMOZXwsa61UefYDfWLYddL6oEDQcxcZUTwDrOzFrcs&co=ffffff&cmo=d7e513&cmn=cc643a&ct=c18282'></script>
+</div>
