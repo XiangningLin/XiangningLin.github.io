@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiangning Lin</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: white;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+        
+        /* 头部区域 - 左右布局 */
+        .header {
+            display: table;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+        
+        .header-left {
+            display: table-cell;
+            vertical-align: middle;
+            padding-right: 40px;
+        }
+        
+        .header-left .intro {
+            margin-top: 20px;
+        }
+        
+        .header-right {
+            display: table-cell;
+            vertical-align: middle;
+            width: 200px;
+        }
+        
+        .header-photo {
+            text-align: center;
+        }
+        
+        .header-photo img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+        h1 {
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+        
+        .tagline {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.8;
+        }
+        
+        .contact-links {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .contact-links a {
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+        
+        /* 主内容区域 */
+        .section {
+            margin-bottom: 60px;
+        }
+        
+        h2 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            color: #1a1a1a;
+        }
+        
+        .intro p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 15px;
+        }
+        
+        .intro a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        .intro a:hover {
+            text-decoration: underline;
+        }
+        
+        /* News 列表 */
+        .news-list {
+            list-style: none;
+        }
+        
+        .news-list li {
+            margin-bottom: 15px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        
+        .news-date {
+            font-style: italic;
+            color: #999;
+            font-weight: 600;
+        }
+        
+        /* Publications */
+        .publication {
+            margin-bottom: 40px;
+        }
+        
+        .pub-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        
+        .pub-authors {
+            font-size: 15px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+        
+        .pub-venue {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        
+        .pub-venue.under-review {
+            color: #f39c12;
+        }
+        
+        .pub-venue.in-prep {
+            color: #3498db;
+        }
+        
+        .pub-description {
+            font-size: 15px;
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+        
+        .pub-links {
+            font-size: 14px;
+        }
+        
+        .pub-links a {
+            color: #0066cc;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        
+        .pub-links a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Education */
+        .edu-item {
+            margin-bottom: 20px;
+        }
+        
+        .edu-date {
+            font-style: italic;
+            color: #999;
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+        
+        .edu-content {
+            margin-left: 20px;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        
+        .edu-content strong {
+            color: #333;
+        }
+        
+        /* 访客地图 */
+        .visitor-map {
+            margin-top: 60px;
+            text-align: center;
+        }
+        
+        footer {
+            margin-top: 80px;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 20px;
+            }
+            
+            .header {
+                flex-direction: column-reverse;
+                align-items: center;
+                text-align: center;
+                gap: 30px;
+            }
+            
+            .header-photo img {
+                width: 160px;
+                height: 160px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            h2 {
+                font-size: 24px;
+            }
+            
+            .contact-links {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="header">
+            <div class="header-left">
+                <h1>Xiangning Lin</h1>
+                <div class="contact-links">
+                    <a href="mailto:rosielin.xl@gmail.com">Email</a>
+                    <a href="#">Google Scholar</a>
+                    <a href="#">Github</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+                
+                <div class="intro">
+                    <p>I received my Master's degree in Electrical and Computer Engineering from Carnegie Mellon University. Prior to this, I received my B.S. in Mathematics from University of Chinese Academy of Sciences and was a visiting student at Columbia University.</p>
+                    
+                    <p>My research interests lie in <strong>AI Safety</strong>, <strong>Language Model Reasoning</strong>, and <strong>AI Agent Evaluation</strong>. I am particularly interested in developing robust evaluation frameworks and safety mechanisms for AI agents, as well as exploring cognitive-inspired approaches to improve language model capabilities.</p>
+                    
+                    <p>I am fortunate to collaborate with <a href="#">Dr. Jiaxin Pei</a> at Stanford HAI on system prompt auditing, <a href="#">Prof. Ludwig Schmidt</a> at Stanford CS on agent benchmarking, and <a href="#">Prof. Manling Li</a> at Northwestern MLL Lab on cognitive language modeling.</p>
+                    
+                    <p>Feel free to reach out if you have any ideas for potential collaboration, or just feel like having a casual chat!</p>
+                </div>
+            </div>
+            
+            <div class="header-right">
+                <div class="header-photo">
+                    <img src="profile_1.jpg" alt="Xiangning Lin">
+                </div>
+            </div>
+        </div>
+
+        <!-- News -->
+        <div class="section">
+            <h2>🔥 News</h2>
+            <ul class="news-list">
+                <li><span class="news-date">2025.08</span>: Joined Stanford HAI as research intern working on AI safety with Dr. Jiaxin Pei.</li>
+                <li><span class="news-date">2025.07</span>: Began collaboration with Prof. Ludwig Schmidt at Stanford CS on agent evaluation frameworks.</li>
+                <li><span class="news-date">2025.05</span>: Started research internship at Northwestern MLL Lab with Prof. Manling Li on cognitive language modeling.</li>
+            </ul>
+        </div>
+
+        <!-- Publications -->
+        <div class="section">
+            <h2>📝 Publications</h2>
+            
+            <div class="publication">
+                <div class="pub-title">Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces</div>
+                <div class="pub-authors">Mike A Merrill, Alexander Glenn Shaw, Nicholas Carlini, et al. (including <strong>Xiangning Lin</strong>), Ludwig Schmidt</div>
+                <div class="pub-venue under-review">Under Review at ICLR 2026</div>
+                <div class="pub-description">
+                    We present Terminal-Bench, an evaluation framework for assessing AI agents on long-horizon, stateful tasks in containerized sandbox environments. Built heterogeneous benchmark integrations enabling unified evaluation pipeline and trajectory collection for RL-based agent training.
+                </div>
+                <div class="pub-links">
+                    <a href="https://www.tbench.ai/" target="_blank">Paper</a> | <a href="https://www.tbench.ai/" target="_blank">Website</a> | <a href="https://github.com/laude-institute/terminal-bench" target="_blank">Code</a>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-title">System Prompt Auditing for User-Centric AI Agents</div>
+                <div class="pub-authors"><strong>Xiangning Lin*</strong>, Shenzhe Zhu*, Jiaxin Pei</div>
+                <div class="pub-venue in-prep">In Preparation for ACL 2026</div>
+                <div class="pub-description">
+                    We establish a novel AI safety taxonomy defining 3 primary violation domains and 26 sub-standards. Created a high-fidelity dataset of 3,400+ adversarial samples across 130 real-world scenarios in 7 industries. Deployed a full-stack benchmarking service providing publicly accessible auditing tools for evaluating system prompts against safety standards.
+                </div>
+                <div class="pub-links">
+                    <a href="#">Paper</a> | <a href="#">Code</a> | <a href="#">Website</a>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-title">Cognitive-Inspired Concept Reasoning via Mamba in Sentence Representation Spaces</div>
+                <div class="pub-authors"><strong>Xiangning Lin*</strong>, Jianwen Lyu*, Qineng Wang, Zihan Wang, Manling Li</div>
+                <div class="pub-venue in-prep">In Preparation for ICML 2026</div>
+                <div class="pub-description">
+                    We design a sentence-level language model integrating Mamba state-space architecture with SONAR sentence embeddings. Optimized GPU utilization from 15% to 90% through distributed training pipeline. Conducted comparative pretraining on C4 and Fineweb-Edu datasets for models up to 780M parameters, evaluating representation capabilities on summarization and reasoning tasks.
+                </div>
+                <div class="pub-links">
+                    <a href="#">Paper</a> | <a href="#">Code</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Educations -->
+        <div class="section">
+            <h2>📖 Educations</h2>
+            
+            <div class="edu-item">
+                <div class="edu-date">2021 - 2023</div>
+                <div class="edu-content">
+                    <strong>M.S. in Electrical and Computer Engineering</strong>, Carnegie Mellon University, Pittsburgh, PA
+                </div>
+            </div>
+            
+            <div class="edu-item">
+                <div class="edu-date">2016 - 2020</div>
+                <div class="edu-content">
+                    <strong>B.S. in Mathematics</strong>, University of Chinese Academy of Sciences, Beijing, China
+                </div>
+            </div>
+            
+            <div class="edu-item">
+                <div class="edu-date">2019 (Visiting Student)</div>
+                <div class="edu-content">
+                    <strong>Mathematics</strong>, Columbia University, New York, NY
+                </div>
+            </div>
+        </div>
+
+        <!-- 访客地图 -->
+        <div class="visitor-map">
+            <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=169841&w=a&t=n&d=VUMOZXwsa61UefYDfWLYddL6oEDQcxcZUTwDrOzFrcs&co=ffffff&cmo=d7e513&cmn=cc643a&ct=c18282'></script>
+        </div>
+
+        <footer>
+            © 2025 Xiangning Lin
+        </footer>
+    </div>
+</body>
+</html>
