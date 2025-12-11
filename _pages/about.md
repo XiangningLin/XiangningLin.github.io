@@ -26,15 +26,18 @@ Feel free to reach out if you have any ideas for potential collaboration, or jus
 
 # 📝 Publications 
 
-<div style="border: none;">
+- [Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces](https://www.tbench.ai/)  
+  Mike A Merrill, Alexander Glenn Shaw, Nicholas Carlini, et al. (including **Xiangning Lin**), Ludwig Schmidt  
+  **Under Review at ICLR 2026**  
+  [Website](https://www.tbench.ai/) \| [Code](https://github.com/laude-institute/terminal-bench)
 
-- [**Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces**](https://www.tbench.ai/), Mike A Merrill, Alexander Glenn Shaw, Nicholas Carlini, et al. (including **Xiangning Lin**), Ludwig Schmidt, **Under Review at ICLR 2026** | [Website](https://www.tbench.ai/) | [Code](https://github.com/laude-institute/terminal-bench)
+- System Prompt Auditing for User-Centric AI Agents  
+  **Xiangning Lin\***, Shenzhe Zhu\*, Jiaxin Pei  
+  **In Preparation for ACL 2026**
 
-- **System Prompt Auditing for User-Centric AI Agents**, **Xiangning Lin\***, Shenzhe Zhu\*, Jiaxin Pei, **In Preparation for ACL 2026**
-
-- **Cognitive-Inspired Concept Reasoning via Mamba in Sentence Representation Spaces**, **Xiangning Lin\***, Jianwen Lyu\*, Qineng Wang, Zihan Wang, Manling Li, **In Preparation for ICML 2026**
-
-</div>
+- Cognitive-Inspired Concept Reasoning via Mamba in Sentence Representation Spaces  
+  **Xiangning Lin\***, Jianwen Lyu\*, Qineng Wang, Zihan Wang, Manling Li  
+  **In Preparation for ICML 2026**
 
 # 📖 Educations
 - *2021 - 2023*, **M.S. in Electrical and Computer Engineering**, Carnegie Mellon University, Pittsburgh, PA
