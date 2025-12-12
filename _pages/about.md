@@ -12,6 +12,8 @@ redirect_from:
 
 I received my Master's degree in Electrical and Computer Engineering from Carnegie Mellon University. Prior to this, I received my B.S. in Mathematics from University of Chinese Academy of Sciences and was a visiting student at Columbia University.
 
+I am actively looking for 26 Fall CS PhD position. I am always open to collaborate, feel free to drop me an email or contact with me on wechat ID **sunshine_and_peace**.
+
 My research interests lie in **AI Safety**, **Language Model Reasoning**, and **AI Agent Evaluation**. I am particularly interested in developing robust evaluation frameworks and safety mechanisms for AI agents, as well as exploring cognitive-inspired approaches to improve language model capabilities.
 
 I am fortunate to collaborate with Dr. Jiaxin Pei at Stanford HAI on system prompt auditing, Prof. Ludwig Schmidt at Stanford CS on agent benchmarking, and Prof. Manling Li at Northwestern MLL Lab on cognitive language modeling.
