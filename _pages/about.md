@@ -49,5 +49,5 @@ Feel free to reach out if you have any ideas for potential collaboration, or jus
 <br>
 
 <div style="text-align: center; margin-top: 60px;">
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=57c60e&w=300&t=n&d=VUMOZXwsa61UefYDfWLYddL6oEDQcxcZUTwDrOzFrcs&co=fafdff&cmn=f7d177'></script>
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=57c60e&w=a&t=n&d=VUMOZXwsa61UefYDfWLYddL6oEDQcxcZUTwDrOzFrcs&co=fafdff&cmn=f7d177'></script>
 </div>
