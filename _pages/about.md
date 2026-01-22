@@ -31,7 +31,7 @@ Feel free to reach out if you have any ideas for potential collaboration, or jus
 - [Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces](https://www.tbench.ai/)  
   Mike A Merrill, Alexander Glenn Shaw, Nicholas Carlini, et al. (including **Xiangning Lin**), Ludwig Schmidt  
   **Under Review at ICLR 2026**  
-  [Website](https://www.tbench.ai/) \| [Code](https://github.com/laude-institute/terminal-bench)
+  [Website](https://www.tbench.ai/) \| [Paper](https://arxiv.org/abs/2601.11868) \| [Code](https://github.com/laude-institute/terminal-bench)
 
 - System Prompt Auditing for User-Centric AI Agents  
   **Xiangning Lin\***, Shenzhe Zhu\*, Jiaxin Pei  
