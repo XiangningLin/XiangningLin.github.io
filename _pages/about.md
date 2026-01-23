@@ -18,8 +18,6 @@ My research interests lie in **AI Safety**, **Language Model Reasoning**, and **
 
 I am fortunate to collaborate with Dr. Jiaxin Pei at Stanford HAI on system prompt auditing, Prof. Ludwig Schmidt at Stanford CS on agent benchmarking, and Prof. Manling Li at Northwestern MLL Lab on cognitive language modeling.
 
-<a href='https://scholar.google.com/citations?user=4WV3jH8AAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/XiangningLin/XiangningLin.github.io/google-scholar-stats/gs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
-
 Feel free to reach out if you have any ideas for potential collaboration, or just feel like having a casual chat!
 
 
