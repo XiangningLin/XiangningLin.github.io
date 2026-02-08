@@ -12,7 +12,7 @@ redirect_from:
 
 I received my Master's degree in Electrical and Computer Engineering from Carnegie Mellon University. Prior to this, I received my B.S. in Mathematics from University of Chinese Academy of Sciences and was a visiting student at Columbia University.
 
-<p style="color: red; font-weight: bold;">I am actively looking for 26 Fall CS PhD position. I am always open to collaborate, feel free to drop me an email or contact with me on wechat ID sunshine_and_peace.</p>
+<p style="color: red; font-weight: bold;">I am actively looking for 27 Fall CS PhD position. I am always open to collaborate, feel free to drop me an email.</p>
 
 My research interests lie in **AI Safety**, **Language Model Reasoning**, and **AI Agent Evaluation**. I am particularly interested in developing robust evaluation frameworks and safety mechanisms for AI agents, as well as exploring cognitive-inspired approaches to improve language model capabilities.
 
