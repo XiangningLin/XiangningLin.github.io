@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xiangning Lin"
-description              : "AI Safety, Language Model Reasoning, and AI Agent Evaluation"
+description              : "AI accountability, trustworthy agents, and agent evaluation"
 repository               : "XiangningLin/XiangningLin.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,8 +22,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Xiangning Lin"
-  avatar           : "images/profile.jpg"
-  bio              : "Carnegie Mellon University"
+  avatar           : "/images/profile.jpg"
+  bio              : 'Co-creator of <a href="https://systempromptindex.ai/">systempromptindex.ai</a>'
   location         : "Palo Alto, CA, USA"
   employer         :
   pubmed           : 
