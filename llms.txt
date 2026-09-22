@@ -1,0 +1,13 @@
+# Xiangning Lin
+
+> Researcher at Stanford HAI working on AI accountability, trustworthy agents and agent evaluation. First author of AISPA, a user-centric framework for auditing the system prompts of commercial AI products; co-creator of systempromptindex.ai, the largest open library of system prompts; contributor to Terminal-Bench and Harbor-Index.
+
+## Publications
+- [AISPA: User-Centric System Prompt Auditing for Large Language Model Applications](https://arxiv.org/abs/2607.28617): audits the system prompts of 88 commercial AI products along eight user-protection dimensions. Website: https://systempromptindex.ai/
+- [Harbor Adapters and Harbor-Index](https://arxiv.org/abs/2609.04298): unified evaluation infrastructure for 80+ agentic benchmarks and a curated set of 82 hard tasks. Website: https://harbor-index.org/
+- [Terminal-Bench](https://arxiv.org/abs/2601.11868): benchmarking agents on hard, realistic command-line tasks (ICLR 2026). Website: https://www.tbench.ai/
+
+## Links
+- Homepage: https://xiangninglin.github.io/
+- Google Scholar: https://scholar.google.com/citations?user=4WV3jH8AAAAJ
+- GitHub: https://github.com/XiangningLin

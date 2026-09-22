@@ -10,6 +10,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# Xiangning Lin
+
 <p style="color: red; font-weight: bold;">I am actively looking for 27 Fall CS PhD position. I am always open to collaborate, feel free to drop me an email.</p>
 
 My research interests lie in **AI accountability**, **trustworthy agents**, and **agent evaluation**.
@@ -21,12 +23,12 @@ I am the co-founder of [systempromptindex.ai](https://systempromptindex.ai/), th
 Feel free to reach out if you have any ideas for potential collaboration, or just feel like having a casual chat!
 
 
-# 🔥 News
+## 🔥 News
 - *2026.09*: We released [Harbor-Index](https://harbor-index.org/), a curated set of 82 hard, diverse agentic tasks drawn from 29 benchmarks, together with Harbor Adapters, a unified evaluation infrastructure for 80+ agentic benchmarks.
 - *2026.09*: Gave an invited talk at [BAAI](https://event.baai.ac.cn/live/1080) on AISPA and systempromptindex.ai, the world's largest open system prompt database.
 - *2026.08*: AISPA and systempromptindex.ai were reported by [机器之心](https://mp.weixin.qq.com/s/u_yORHB00vSXhzk1_wNHGA).
 
-# 📝 Publications 
+## 📝 Publications 
 
 - [Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces](https://www.tbench.ai/)  
   Mike A Merrill, Alexander Glenn Shaw, Nicholas Carlini, et al. (including **Xiangning Lin**), Ludwig Schmidt  

@@ -22,7 +22,7 @@
 
 <!-- end custom head snippets -->
 
-<meta name="description" content="Xiangning Lin, Stanford HAI. Research on AI accountability, trustworthy agents and agent evaluation; first author of AISPA (system prompt auditing), co-creator of systempromptindex.ai, contributor to Terminal-Bench and Harbor-Index.">
+<meta name="description" content="Xiangning Lin, Stanford HAI: AI accountability, trustworthy agents and agent evaluation. First author of AISPA; co-creator of systempromptindex.ai.">
 <meta property="og:image" content="{{ site.url }}/images/profile.jpg">
 <meta property="og:type" content="profile">
 <meta name="twitter:card" content="summary">
@@ -32,20 +32,56 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Xiangning Lin",
-  "url": "https://xiangninglin.github.io/",
-  "image": "https://xiangninglin.github.io/images/profile.jpg",
-  "jobTitle": "Researcher",
-  "affiliation": {"@type": "Organization", "name": "Stanford HAI"},
-  "alumniOf": {"@type": "CollegeOrUniversity", "name": "Carnegie Mellon University"},
-  "knowsAbout": ["AI accountability", "trustworthy agents", "agent evaluation", "system prompt auditing"],
-  "sameAs": [
-    "https://scholar.google.com/citations?user=4WV3jH8AAAAJ&hl=en",
-    "https://github.com/XiangningLin",
-    "https://www.linkedin.com/in/xiangninglin",
-    "https://x.com/Rosierosiiiie",
-    "https://systempromptindex.ai/"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://xiangninglin.github.io/#website",
+      "url": "https://xiangninglin.github.io/",
+      "name": "Xiangning Lin",
+      "publisher": {"@id": "https://xiangninglin.github.io/#person"}
+    },
+    {
+      "@type": "Person",
+      "@id": "https://xiangninglin.github.io/#person",
+      "name": "Xiangning Lin",
+      "url": "https://xiangninglin.github.io/",
+      "image": "https://xiangninglin.github.io/images/profile.jpg",
+      "jobTitle": "Researcher",
+      "affiliation": {"@type": "Organization", "name": "Stanford HAI"},
+      "alumniOf": {"@type": "CollegeOrUniversity", "name": "Carnegie Mellon University"},
+      "knowsAbout": ["AI accountability", "trustworthy agents", "agent evaluation", "system prompt auditing"],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=4WV3jH8AAAAJ&hl=en",
+        "https://github.com/XiangningLin",
+        "https://www.linkedin.com/in/xiangninglin",
+        "https://x.com/Rosierosiiiie",
+        "https://systempromptindex.ai/"
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "headline": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "url": "https://arxiv.org/abs/2607.28617",
+      "sameAs": "https://systempromptindex.ai/",
+      "datePublished": "2026-07",
+      "author": [{"@id": "https://xiangninglin.github.io/#person"}, {"@type": "Person", "name": "Shenzhe Zhu"}, {"@type": "Person", "name": "Jiaxin Pei"}]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "headline": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
+      "url": "https://arxiv.org/abs/2609.04298",
+      "sameAs": "https://harbor-index.org/",
+      "datePublished": "2026-09",
+      "author": [{"@type": "Person", "name": "Lin Shi"}, {"@type": "Person", "name": "Haowei Lin"}, {"@id": "https://xiangninglin.github.io/#person"}]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "headline": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+      "url": "https://arxiv.org/abs/2601.11868",
+      "sameAs": "https://www.tbench.ai/",
+      "datePublished": "2026-01",
+      "author": [{"@type": "Person", "name": "Mike A. Merrill"}, {"@id": "https://xiangninglin.github.io/#person"}, {"@type": "Person", "name": "Ludwig Schmidt"}]
+    }
   ]
 }
 </script>
