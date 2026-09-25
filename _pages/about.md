@@ -24,6 +24,7 @@ Feel free to reach out if you have any ideas for potential collaboration, or jus
 
 
 ## 🔥 News
+- *2026.09*: [Harbor-Index](https://harbor-index.org/) was accepted to NeurIPS 2026!
 - *2026.09*: We released [Harbor-Index](https://harbor-index.org/), a curated set of 82 hard, diverse agentic tasks drawn from 29 benchmarks, together with Harbor Adapters, a unified evaluation infrastructure for 80+ agentic benchmarks.
 - *2026.09*: Gave an invited talk at [BAAI](https://event.baai.ac.cn/live/1080) on AISPA and systempromptindex.ai, the world's largest open system prompt database.
 - *2026.08*: AISPA and systempromptindex.ai were reported by [机器之心](https://mp.weixin.qq.com/s/u_yORHB00vSXhzk1_wNHGA).
@@ -37,7 +38,7 @@ Feel free to reach out if you have any ideas for potential collaboration, or jus
 
 - [Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation](https://harbor-index.org/)  
   Lin Shi, Haowei Lin, Zixuan Zhu, Xiaoyue Zhou, Xiang Li, **Xiangning Lin**, et al.  
-  **arXiv preprint, September 2026**  
+  **Accepted by NeurIPS 2026**  
   [Website](https://harbor-index.org/) \| [Paper](https://arxiv.org/abs/2609.04298) \| [Code](https://github.com/harbor-framework/harbor-index)
 
 - [AISPA: User-Centric System Prompt Auditing for Large Language Model Applications](https://systempromptindex.ai/)  
